@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RoutineGuard Privacy Policy">
+    <title>Privacy Policy — RoutineGuard</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <nav class="page-nav" aria-label="Page navigation">
+          <a href="index.html">← RoutineGuard</a>
+          <a href="../privacy-policy.html" lang="ja">日本語</a>
+        </nav>
+        <h1>Privacy Policy</h1>
+        <p class="tagline">Effective and last updated: August 30, 2026</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>1. Our approach</h2>
+        <p>
+          RoutineGuard (“the App”) is a local-first macOS app that manages morning routines and timers on
+          your Mac. The developer does not collect, transmit, sell, use for advertising, or track personal data through the App.
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Information stored on your Mac</h2>
+        <p>The App stores the following information on your Mac to provide its features:</p>
+        <ul>
+          <li>Routine item names, order, item durations, and the daily protection time</li>
+          <li>The current day's start and completion state and timestamps</li>
+          <li>A salted hash of the recovery code (the recovery code itself is not stored)</li>
+          <li>A random pairing token used for phone access</li>
+          <li>State required for launch-at-login and safety settings</li>
+        </ul>
+        <p>This information is not sent to the developer's server or a third-party analytics service.</p>
+      </section>
+
+      <section>
+        <h2>3. Local-network communication</h2>
+        <p>
+          If you use phone control, the App runs a local HTTP service on the Mac and uses Bonjour so a phone
+          on the same local network can connect. The routine display state, remaining duration, start and completion requests,
+          and pairing token are communicated between the Mac and phone.
+        </p>
+        <p>
+          This communication does not pass through the developer's cloud. Its reach depends on your network
+          configuration, so use a trusted network and do not share the pairing URL.
+        </p>
+      </section>
+
+      <section>
+        <h2>4. Information we do not collect</h2>
+        <ul>
+          <li>Name, email address, contacts, or location</li>
+          <li>Advertising identifiers, browsing history, or other-app usage history</li>
+          <li>Analytics events, crash analytics, or diagnostic logs sent automatically to the developer</li>
+          <li>Payment information (the App contains no purchase functionality)</li>
+        </ul>
+        <p>The App contains no ads, analytics SDK, account registration, or tracking feature.</p>
+      </section>
+
+      <section>
+        <h2>5. Processing by Apple</h2>
+        <p>
+          Apple may process Mac App Store distribution, purchase history, standard diagnostic sharing, and
+          related information under Apple's own policies. This is not data collected by the App for the developer.
+          Please consult Apple's privacy policy for details.
+        </p>
+      </section>
+
+      <section id="deletion">
+        <h2>6. Review and delete stored data</h2>
+        <p>
+          The App has no developer-hosted account or server data, so no deletion request to the developer is
+          required. While waiting, disable protection and launch at login. Then quit and delete the App. To remove
+          its local data, open Finder, choose Go → Go to Folder, and delete this container:
+        </p>
+        <p><code>~/Library/Containers/com.babashunsuke.RoutineGuard</code></p>
+        <p class="note">
+          Confirm that you no longer need the safety configuration before deleting it. Settings cannot be restored
+          after the container is removed.
+        </p>
+      </section>
+
+      <section>
+        <h2>7. Children's privacy</h2>
+        <p>The App is not directed to children and does not collect personal information, including age.</p>
+      </section>
+
+      <section>
+        <h2>8. Changes to this policy</h2>
+        <p>
+          We may update this policy when features or laws change. Material changes will be published on this
+          page, and the last-updated date above will be revised.
+        </p>
+      </section>
+
+      <section>
+        <h2>9. Contact</h2>
+        <p>Privacy questions: <a href="mailto:sunagaku.dx@gmail.com">sunagaku.dx@gmail.com</a></p>
+      </section>
+    </main>
+    <footer><a href="support.html">Support and FAQ</a> · <a href="../privacy-policy.html" lang="ja">日本語</a> · © 2026 baba shunsuke</footer>
+  </body>
+</html>

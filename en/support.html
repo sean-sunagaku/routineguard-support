@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Support for RoutineGuard setup, timers, full-screen protection, and recovery">
+    <title>Support and FAQ — RoutineGuard</title>
+    <link rel="stylesheet" href="../styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <nav class="page-nav" aria-label="Page navigation">
+          <a href="index.html">← RoutineGuard</a>
+          <a href="../support.html" lang="ja">日本語</a>
+        </nav>
+        <h1>Support and FAQ</h1>
+        <p class="tagline">Last updated: August 30, 2026</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>System requirements</h2>
+        <p>RoutineGuard requires macOS 14 or later and is available only for Mac.</p>
+      </section>
+
+      <section>
+        <h2>First-time setup</h2>
+        <ol>
+          <li>Save 1 to 8 routine items and choose minutes and seconds for each item.</li>
+          <li>Choose the daily time when Mac protection begins. The default is 7:00 AM.</li>
+          <li>Create a recovery code and store it safely away from your Mac.</li>
+          <li>Complete the full-screen safety test, which deliberately does not block app switching.</li>
+          <li>Enable “Open at Login,” then enable daily protection.</li>
+        </ol>
+        <p class="note">Daily protection cannot be enabled until you confirm that the recovery code is stored safely.</p>
+      </section>
+
+      <section>
+        <h2>Full-screen protection and timers</h2>
+        <p>
+          At the chosen time, RoutineGuard presents its routine surface on every connected display.
+          After the routine starts, your Mac manages each item duration and the total duration.
+          The completion action is unavailable until every item timer has elapsed.
+        </p>
+        <p>
+          Protection does not disappear automatically when the timer ends. Choose “Complete and Use Mac”
+          when completion becomes available to return to your regular Mac workspace.
+        </p>
+      </section>
+
+      <section>
+        <h2>Control from a phone</h2>
+        <p>
+          Connect the Mac and phone to the same local network, then open the pairing URL shown on the
+          RoutineGuard waiting screen. Your Mac always remains the authority for starting and completing a routine.
+        </p>
+        <ul>
+          <li>Allow RoutineGuard to access the local network in macOS settings.</li>
+          <li>Guest Wi-Fi and networks that isolate devices may prevent the connection.</li>
+          <li>Do not share the pairing URL; it contains a private access token.</li>
+          <li>RoutineGuard does not provide cloud remote control or restrict apps on the iPhone itself.</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>If something goes wrong</h2>
+        <p>
+          Open “Having Trouble?” on the protection screen and enter your saved recovery code. After a
+          30-second delay that prevents accidental use, recovery dismisses today's protection and disables future automatic protection.
+        </p>
+        <p>
+          RoutineGuard is not an operating-system security boundary. It cannot completely prevent bypasses
+          involving an administrator account, Safe Mode, Recovery Mode, power interruption, or other system-level actions.
+        </p>
+      </section>
+
+      <section>
+        <h2>If the Mac was asleep or powered off</h2>
+        <p>
+          RoutineGuard does not start or wake your Mac. If the Mac was unavailable at the chosen time,
+          RoutineGuard checks the schedule on the next launch or wake and presents protection when required.
+        </p>
+      </section>
+
+      <section>
+        <h2>Stop protection or uninstall</h2>
+        <p>
+          While waiting, choose “Stop Protection” and disable “Open at Login” before deleting the app.
+          During protection, complete the routine normally or use recovery first.
+        </p>
+        <p>See the <a href="privacy-policy.html#deletion">Privacy Policy</a> for local-data deletion instructions.</p>
+      </section>
+
+      <section>
+        <h2>Contact</h2>
+        <p>
+          Include your macOS version, RoutineGuard version, and the screen where the problem occurred, then
+          email <a href="mailto:sunagaku.dx@gmail.com">sunagaku.dx@gmail.com</a>. Never send your recovery code or pairing URL.
+        </p>
+      </section>
+    </main>
+    <footer><a href="privacy-policy.html">Privacy Policy</a> · <a href="../support.html" lang="ja">日本語</a> · © 2026 baba shunsuke</footer>
+  </body>
+</html>
