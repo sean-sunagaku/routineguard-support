@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RoutineGuard プライバシーポリシー">
+    <title>プライバシーポリシー — RoutineGuard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <p><a href="index.html" style="color: inherit">← RoutineGuard</a></p>
+        <h1>プライバシーポリシー</h1>
+        <p class="tagline">施行・最終更新: 2026年8月30日</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>1. 基本方針</h2>
+        <p>
+          RoutineGuard（以下「本アプリ」）は、朝のルーティンとタイマーを Mac 内で管理する
+          ローカルファーストの macOS アプリです。開発者は、本アプリを通じて個人データを
+          収集、送信、販売、広告利用、またはユーザー追跡しません。
+        </p>
+      </section>
+
+      <section>
+        <h2>2. Mac 内に保存する情報</h2>
+        <p>本アプリは機能提供のため、次の情報をユーザーの Mac 内に保存します。</p>
+        <ul>
+          <li>ルーティン項目名、順序、各項目の時間、毎日の保護時刻</li>
+          <li>当日の開始・完了状態と時刻</li>
+          <li>復旧コードのソルト付きハッシュ（復旧コードそのものは保存しません）</li>
+          <li>スマートフォン接続に使用するランダムなペアリングトークン</li>
+          <li>ログイン起動と安全設定に必要な状態</li>
+        </ul>
+        <p>これらの情報は開発者のサーバーや第三者の分析サービスへ送信されません。</p>
+      </section>
+
+      <section>
+        <h2>3. ローカルネットワーク通信</h2>
+        <p>
+          ユーザーがスマートフォン操作を利用する場合、本アプリは Mac 上でローカル HTTP
+          サービスを起動し、Bonjour を使って同じローカルネットワーク上で接続可能にします。
+          スマートフォンとの間では、ルーティンの表示状態、残り時間、開始・完了要求、
+          ペアリングトークンが通信されます。
+        </p>
+        <p>
+          この通信は開発者のクラウドを経由しません。通信範囲は利用中のネットワーク設定に
+          依存するため、信頼できるネットワークで利用し、ペアリング URL を第三者へ共有しないでください。
+        </p>
+      </section>
+
+      <section>
+        <h2>4. 収集しない情報</h2>
+        <ul>
+          <li>氏名、メールアドレス、連絡先、位置情報</li>
+          <li>広告識別子、閲覧履歴、他社アプリの利用履歴</li>
+          <li>分析イベント、クラッシュ分析、診断ログの開発者への自動送信</li>
+          <li>支払い情報（本アプリ内に購入機能はありません）</li>
+        </ul>
+        <p>本アプリに広告、解析 SDK、アカウント登録、トラッキング機能はありません。</p>
+      </section>
+
+      <section>
+        <h2>5. Apple による処理</h2>
+        <p>
+          Mac App Store の配信、購入履歴、標準の診断共有などは Apple が独自の方針に基づいて
+          処理する場合があります。これらは本アプリが開発者へ収集するデータではありません。
+          詳細は Apple のプライバシーポリシーをご確認ください。
+        </p>
+      </section>
+
+      <section id="deletion">
+        <h2>6. 保存データの確認・削除</h2>
+        <p>
+          本アプリには開発者側のアカウントやサーバーデータがないため、開発者への削除申請は
+          必要ありません。待機中に保護とログイン起動を無効にし、本アプリを終了・削除した後、
+          Finder の「移動」→「フォルダへ移動」で次のコンテナを削除すると、ローカルデータを削除できます。
+        </p>
+        <p><code>~/Library/Containers/com.babashunsuke.RoutineGuard</code></p>
+        <p class="note">
+          復旧コードを含む安全設定が不要であることを確認してから削除してください。
+          コンテナ削除後の設定は復元できません。
+        </p>
+      </section>
+
+      <section>
+        <h2>7. 子どものプライバシー</h2>
+        <p>
+          本アプリは子どもを対象としたサービスではなく、年齢を含む個人情報を収集しません。
+        </p>
+      </section>
+
+      <section>
+        <h2>8. 本ポリシーの変更</h2>
+        <p>
+          機能や法令の変更に応じて本ポリシーを更新する場合があります。重要な変更はこのページで
+          公開し、上部の最終更新日を変更します。
+        </p>
+      </section>
+
+      <section>
+        <h2>9. お問い合わせ</h2>
+        <p>
+          本ポリシーに関するお問い合わせ:
+          <a href="mailto:sunagaku.dx@gmail.com">sunagaku.dx@gmail.com</a>
+        </p>
+      </section>
+    </main>
+    <footer><a href="support.html">サポート・FAQ</a> · © 2026 baba shunsuke</footer>
+  </body>
+</html>
