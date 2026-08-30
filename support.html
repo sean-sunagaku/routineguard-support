@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="RoutineGuard の設定、ロック、復旧に関するサポート情報">
+    <title>サポート・FAQ — RoutineGuard</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="header-inner">
+        <p><a href="index.html" style="color: inherit">← RoutineGuard</a></p>
+        <h1>サポート・FAQ</h1>
+        <p class="tagline">最終更新: 2026年8月30日</p>
+      </div>
+    </header>
+    <main>
+      <section>
+        <h2>動作環境</h2>
+        <p>macOS 14 以降に対応しています。RoutineGuard は Mac 専用アプリです。</p>
+      </section>
+
+      <section>
+        <h2>最初に必要な設定</h2>
+        <ol>
+          <li>1〜8件のルーティンと、各項目の「分」「秒」を保存します。</li>
+          <li>毎日 Mac を保護する時刻を設定します。初期値は 7:00 です。</li>
+          <li>復旧コードを作成し、Mac の外に安全に保管します。</li>
+          <li>アプリ切り替えを妨げない「全画面の安全テスト」を完了します。</li>
+          <li>「ログイン時に開く」を有効にしてから、毎日の保護を有効にします。</li>
+        </ol>
+        <p class="note">復旧コードを保存する前に毎日の保護を有効にすることはできません。</p>
+      </section>
+
+      <section>
+        <h2>ロックとタイマー</h2>
+        <p>
+          設定時刻になると、接続中の各ディスプレイに RoutineGuard の画面が表示されます。
+          ルーティンを開始すると、Mac が各項目の時間と合計時間を管理します。
+          全項目の時間が経過するまで完了操作は表示されません。
+        </p>
+        <p>
+          完了可能になった後も自動解除はせず、「完了してMacを使う」を選ぶと画面が戻ります。
+          これは誤って時間だけが経過した場合に、意図を確認するためです。
+        </p>
+      </section>
+
+      <section>
+        <h2>スマートフォンから操作する</h2>
+        <p>
+          Mac とスマートフォンを同じローカルネットワークに接続し、RoutineGuard の待機画面にある
+          ペアリング URL をスマートフォンで開きます。開始と完了の判定は常に Mac が行います。
+        </p>
+        <ul>
+          <li>macOS の「ローカルネットワーク」許可を有効にしてください。</li>
+          <li>ゲスト Wi-Fi や端末間通信を遮断するネットワークでは接続できないことがあります。</li>
+          <li>ペアリング URL は秘密情報を含むため、第三者へ共有しないでください。</li>
+          <li>クラウド経由の遠隔操作や、iPhone 自体のアプリ制限は行いません。</li>
+        </ul>
+      </section>
+
+      <section>
+        <h2>問題が起きたとき</h2>
+        <p>
+          保護画面の「問題が起きたとき」から、保存した復旧コードを入力してください。
+          誤操作を防ぐ 30 秒の待機後に、その日の保護を解除し、今後の自動保護を停止できます。
+        </p>
+        <p>
+          RoutineGuard は OS のセキュリティ境界ではありません。管理者アカウント、セーフモード、
+          リカバリーモード、電源断などによる回避を完全には防止しません。
+        </p>
+      </section>
+
+      <section>
+        <h2>スリープ中・電源オフだった場合</h2>
+        <p>
+          RoutineGuard は Mac を自動で起動・復帰させません。設定時刻に Mac が利用できなかった場合、
+          次回の起動または復帰時に時刻を照合し、必要なら保護画面を表示します。
+        </p>
+      </section>
+
+      <section>
+        <h2>保護を停止・削除する</h2>
+        <p>
+          待機中に「保護を停止」を選び、「ログイン時の起動を無効にする」を実行してから
+          アプリを削除してください。保護中は、先に通常完了または復旧を行ってください。
+        </p>
+        <p>保存データの削除方法は <a href="privacy-policy.html#deletion">プライバシーポリシー</a> に記載しています。</p>
+      </section>
+
+      <section>
+        <h2>お問い合わせ</h2>
+        <p>
+          macOS のバージョン、RoutineGuard のバージョン、発生した画面を添えて
+          <a href="mailto:sunagaku.dx@gmail.com">sunagaku.dx@gmail.com</a>
+          までご連絡ください。復旧コードやペアリング URL は送らないでください。
+        </p>
+      </section>
+    </main>
+    <footer><a href="privacy-policy.html">プライバシーポリシー</a> · © 2026 baba shunsuke</footer>
+  </body>
+</html>
